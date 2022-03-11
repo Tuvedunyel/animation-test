@@ -9,9 +9,11 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.2",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "atropos": "^1.0.2",
     "eslint": "^8.10.0",
     "gsap": "^3.9.1",
     "jest": "^27.5.1",
