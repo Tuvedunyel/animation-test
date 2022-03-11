@@ -1,0 +1,16 @@
+.scene-wrapper {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+.animation-eiffel {
+  height: 428px;
+  width: 167px;
+  overflow: hidden;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("./../assets/about.png");
+  background-position: -653px -299px;
+}

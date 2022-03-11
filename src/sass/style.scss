@@ -1,16 +1,9 @@
 @use "base";
+@use "component";
 
 .container {
     max-width: 95%;
     margin: 2em auto;
-
-    .tour-eiffel {
-        height: 428px;
-        width: 167px;
-        overflow: hidden;
-        display: inline-block;
-        background-repeat: no-repeat;
-        background-image: url('./../assets/about.png');
-        background-position: -653px -299px;
-    }
 }
+
+
