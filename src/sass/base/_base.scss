@@ -1,4 +1,4 @@
-@use "./../abstracts" as var; /* Set root font-size @10px equivalent */
+/* Set root font-size @10px equivalent */
 html {
   font-size: 0.625em; /* fallback IE8+ */
   font-size: calc(

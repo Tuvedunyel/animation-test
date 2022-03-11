@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import { useEffect, useState } from "react";
+import Scene from "./components/Scene";
 
 const App = () => {
-
   return (
-    <div className="App">
-      <h1>App</h1>
+    <div className='container'>
+      <Scene />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
