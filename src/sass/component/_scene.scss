@@ -2,15 +2,144 @@
     position: relative;
     max-width: 80%;
     margin: 0 auto;
+    height: 100vh;
 }
 
+
+.animation {
+    overflow: hidden;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("./../assets/about.png");
+    position: absolute;
+    top: 100%;
+}
 
 .animation-eiffel {
   height: 428px;
   width: 167px;
-  overflow: hidden;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-image: url("./../assets/about.png");
   background-position: -653px -299px;
+  top: 1.5%;
+  left: 0;
+  z-index: 0;
+}
+
+.animation-pinkWall {
+    width: 200px;
+    height: 364px;
+    background-position: -822px -291px;
+    top: 9%;
+    left: 8%;
+    z-index: 1;
+}
+
+.animation-pinkRoof {
+    width: 171px;
+    height: 435px;
+    background-position: -480px -444px;
+    top: 3%;
+    left: 19%;
+    z-index: 2;
+}
+
+.animation-orangeTree {
+    width: 64px;
+    height: 193px;
+    background-position: -1024px -253px;
+    top: 23%;
+    left: 19%;
+    z-index: 3;
+    
+}
+
+.animation-greenBuilding {
+    width: 207px;
+    height: 425px;
+    background-position: -78px -444px;
+    top: 4%;
+    left: 30%;
+    z-index: 3;
+}
+
+.animation-purplePlant {
+    width: 165px;
+    height: 120px;
+    background-position: -469px -881px;
+    top: 37%;
+    left: 15%;
+    z-index: 4;
+}
+
+.animation-redPlant {
+    width: 99px;
+    height: 151px;
+    background-position: -368px -868px;
+    top: 33%;
+    left: 24%;
+    z-index: 5;
+}
+
+.animation-leftBarrier {
+    width: 291px;
+    height: 143px;
+    background-position: -295px -299px;
+    top: 40%;
+    left: 12%;
+    z-index: 6;
+}
+
+.animation-treeSmall {
+    width: 39px;
+    height: 108px;
+    background-position: -1024px -448px;
+}
+
+.animation-smallOrangeTree {
+    width: 106px;
+    height: 113px;
+    background-position: -981px -879px;
+    top: 46%;
+    left: 0%;
+    z-index: 6;
+}
+
+.animation-pinkShop {
+    width: 358px;
+    height: 295px;
+    background-position: -295px -2px;
+}
+
+.animation-bookShell {
+    width: 168px;
+    height: 199px;
+    background-position: -653px -729px;
+}
+
+.animation-stairs {
+    width: 123px;
+    height: 104px;
+    background-position: -856px -879px;
+}
+
+.animation-deskBuilding {
+    width: 306px;
+    height: 287px;
+    background-position: -655px -2px;
+}
+
+.animation-roof {
+    width: 257px;
+    height: 74px;
+    background-position: -823px -803px;
+}
+
+.animation-longLight {
+    width: 74px;
+    height: 1000px;
+    background-position: -2px -2px;
+}
+.animation-shortLight {
+    width: 74px;
+    height: 1000px;
+    background-position: -2px -2px;
 }
