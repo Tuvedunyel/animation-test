@@ -8,9 +8,13 @@ const Canvas = ({ width = "584", height = "224" }) => {
     const image = new Image();
     image.src = "./src/assets/bird-girl.png";
     image.onload = () => {
-      context.drawImage(image, 412, -50, 50, 50);
+      init();
     };
   });
+
+  const init = () => {
+    context.drawImage(image, 412, -50, 584, 224);
+  };
 
   return (
     <article className='animation__runingGirls'>
