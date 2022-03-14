@@ -1,6 +1,7 @@
 import React from "react";
 import "atropos/css";
 import Atropos from "atropos/react";
+import Canvas from "./Canvas";
 
 const Scene = () => {
   return (
@@ -8,9 +9,6 @@ const Scene = () => {
       <Atropos
         activeOffset={40}
         shadow={false}
-        onEnter={() => console.log("Enter")}
-        onLeave={() => console.log("Leave")}
-        onRotate={(x, y) => console.log("Rotate", x, y)}
         className='my-atropos'
       >
         <div
@@ -53,23 +51,13 @@ const Scene = () => {
           className='animation animation-smallOrangeTree'
           data-atropos-offset='5'
         ></div>
-        <div
-          className='animation animation-pinkShop'
-          data-atropos-offset='5'
-        ></div>
-        <div
-          className='animation animation-bookShell'
-          data-atropos-offset='5'
-        ></div>
-        <div
-          className='animation animation-stairs'
-          data-atropos-offset='5'
-        ></div>
-        <div
-          className='animation animation-deskBuilding'
-          data-atropos-offset='10'
-        ></div>
-        <div className='animation animation-roof' data-atropos-offset='10'></div>
+        <div className='front' data-atropos-offset='5'>
+          <div className='animation animation-pinkShop'></div>
+          <div className='animation animation-bookShell'></div>
+          <div className='animation animation-stairs'></div>
+          <div className='animation animation-deskBuilding'></div>
+          <div className='animation animation-roof'></div>
+        </div>
         <div
           className='animation animation-longLight'
           data-atropos-offset='10'
@@ -78,6 +66,7 @@ const Scene = () => {
           className='animation animation-shortLight'
           data-atropos-offset='15'
         ></div>
+        <Canvas width="584" height="224" />
       </Atropos>
     </section>
   );
